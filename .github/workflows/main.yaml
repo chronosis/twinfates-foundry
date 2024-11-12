@@ -17,7 +17,7 @@ jobs:
     - name: Extract version number
       id: get-version
       run: |
-        echo "version=`jq .version module.json`" >> $GITHUB_OUTPUT
+        echo "version=`jq .version module.json | sed 's/.\(.*\)/\1/' | sed 's/\(.*\)./\1/'`" >> $GITHUB_OUTPUT
 
     # Substitute the Manifest and Download URLs in the module.json
     - name: Substitute Manifest and Download Links For Versioned Ones
