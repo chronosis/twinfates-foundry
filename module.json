@@ -1,0 +1,63 @@
+{
+    "id": "twinfates-setting-pf2",
+    "title": "TwinFates Campaign Setting for Pathfinder 2E Revised",
+    "description": "TwinFates campaign setting module for PF2E",
+    "version": "0.0.1",
+    "compatibility":
+    {
+      "minimum": "12",
+      "verified": "12",
+      "maximum": "12"
+    },
+    "socket": true,
+    "authors":
+    [
+      {
+        "name": "Jay Reardon",
+        "email": "jayreardon@gmail.com",
+        "flags": {}
+      }    
+    ],
+    "url": "https://github.com/chronosis/twinfates-foundryvtt",
+    "manifest": "https://raw.githubusercontent.com/chronosis/twinfates-foundryvtt/main/module.json",
+    "download": "https://github.com/chronosis/twinfates-foundryvtt/releases/download/0.0.1/module.zip",        
+    "license": "https://github.com/chronosis/twinfates-foundryvtt/blob/main/LICENSE",
+    "readme": "https://github.com/chronosis/twinfates-foundryvtt/blob/main/README.md",
+    "bugs": "https://github.com/chronosis/twinfates-foundryvtt/issues",
+    "esmodules":
+    [
+      "src/main.js"
+    ],
+    "languages":
+    [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json",
+        "flags": {}
+      }
+    ],
+    "packs":[],
+    "relationships":
+    {
+      "requires":
+      [
+        {
+          "id": "socketlib",
+          "type": "module",
+          "compatibility":
+          {
+            "verified": "1.0.12"
+          }
+        },
+        {
+            "id": "pf2e",
+            "type": "system",
+            "compatibility":
+            {
+              "verified": "6.6.1"
+            }            
+          }
+        ]
+    }
+  }
