@@ -1,7 +1,7 @@
 {
     "id": "twinfates-foundryvtt",
-    "title": "TwinFates Campaign Setting for Pathfinder 2E Revised",
-    "description": "TwinFates campaign setting module for PF2E",
+    "title": "TwinFates Campaign Setting",
+    "description": "TwinFates campaign setting module for PF2Er",
     "version": "0.0.1",
     "compatibility":
     {
